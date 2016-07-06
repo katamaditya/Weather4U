@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2016. Veera Siva Sri Aditya Katam
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~        http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+  ~ WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <PreferenceCategory android:title="Location Settings">
+        <EditTextPreference
+            android:defaultValue="@string/pref_location_default"
+            android:inputType="text"
+            android:key="@string/pref_location_key"
+            android:singleLine="true"
+            android:title="@string/pref_location_label" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Units Settings">
+        <ListPreference
+            android:defaultValue="@string/pref_units_metric"
+            android:entries="@array/pref_units_options"
+            android:entryValues="@array/pref_units_values"
+            android:key="@string/pref_units_key"
+            android:title="@string/pref_units_label" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Notifications Settings">
+        <CheckBoxPreference
+            android:defaultValue="@string/pref_enable_notifications_default"
+            android:key="@string/pref_enable_notifications_key"
+            android:summaryOff="@string/pref_enable_notifications_false"
+            android:summaryOn="@string/pref_enable_notifications_true"
+            android:title="@string/pref_enable_notifications_label" />
+
+        <ListPreference
+            android:defaultValue="@string/pref_notification_eighthours"
+            android:entries="@array/pref_notification_options"
+            android:entryValues="@array/pref_notification_values"
+            android:key="@string/pref_notification_key"
+            android:title="@string/pref_notification_label" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Custom Settings">
+        <SwitchPreference
+            android:defaultValue="@string/pref_enable_color_change_default"
+            android:key="@string/pref_enable_color_change_key"
+            android:summaryOff="@string/pref_enable_color_change_false"
+            android:summaryOn="@string/pref_enable_color_change_true"
+            android:title="@string/pref_enable_color_change_label" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
