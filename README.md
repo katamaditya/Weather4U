@@ -1,6 +1,7 @@
+# Weather4U - Android App
+
 <a href='https://play.google.com/store/apps/details?id=com.katamaditya.apps.weather4u&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
 
-# Weather4U - Android App
 Weather4U is a full featured weather forecasting application and is exceptionally easy to use application for staying always updated with the weather conditions. It is specifically designed to be as simple and intuitive as possible.
 
 The application features the following:
