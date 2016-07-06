@@ -14,3 +14,7 @@ The application features the following:
 * Uses Open Weather Map API to fetch the weather forecast.
 * Incorporates rich and responsive layout with beautiful icons for better user experience.
 * Uses Sync Adapters for efficient data syncs in background to keep the application up-to-date and prevent excess battery drains.
+
+This application initially started out as a part of Udacity course on Android development. I have customized the original application so that it has more features, looks more polished and serves you better.
+
+Email me if you have any questions, problems or suggestions. Happy to help!
