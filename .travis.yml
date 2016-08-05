@@ -3,3 +3,4 @@ android:
   components:
     - build-tools-22.0.1
     - android-22
+    - extra-appcompat-v7-22.2.1
